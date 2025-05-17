@@ -1,0 +1,15 @@
+# Audio capture
+SpeechRecognition>=3.8.1
+PyAudio>=0.2.11
+
+# Whisper ASR
+openai-whisper>=20230314
+torch>=1.13.0
+
+# (Optional) If you later add TTS:
+pyttsx3>=2.90
+gTTS>=2.3.0
+
+# (Optional) For advanced audio I/O:
+sounddevice>=0.4.6
+numpy>=1.24.0
